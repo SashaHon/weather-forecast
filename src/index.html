@@ -1,43 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Forecast</title>
     <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
 </head>
-
 <body>
-    <main>
+<div class="grid_forecast-container">
+    <div class="weather-info">
         <h1>Weather Forecast</h1>
-        <h2>probable subtitle</h2>
-        <p>Some intoductory p section describing something about this forecast or where to watch</p>
         <form action="#">
-            <legend>Enter a city you're looking forecast for</legend>
-            <input type="text">
-            <input type="submit">
+            <legend>Enter a city</legend><br>
+            <input type="text" id="cityInput" placeholder="Enter City">
+            <button id="getWeatherBtn">Get Weather</button>
         </form>
+        
+        <p id="location">Location: N/A</p>
+        <p id="temperature">Temperature: N/A</p>
+        <p id="humidity">Humidity: N/A</p>
+        <p id="description">Description: N/A</p>
+    </div>
+</div>
 
-        <div class="grid forecast-container">
-            <h3>Temperature</h3>
-            <img src="#" alt="img_related to temperature">
-            <p>Some text from javascrip fetch</p>
-
-            <h3>Humidity</h3>
-            <img src="#" alt="img_related to humidity">
-            <p>Some text from javascript fetch</p>
-
-            <h3>Wind</h3>
-            <img src="#" alt="img_related to wind">
-            <p>Some text from javascript fetch</p>
-
-            <h3>Yidnek's topic</h3>
-            <img src="#" alt="img_related to this section">
-            <p>Some text from javascrip fetch</p>
-        </div>
-    </main>
     <script src="script.js"></script>
 </body>
-
-</html>
