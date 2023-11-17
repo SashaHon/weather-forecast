@@ -28,7 +28,7 @@ body {
 
 #getWeatherBtn {
     background-color: #3498db; 
-    color: white; 
+    color: rgb(156, 84, 84); 
     border: none;
     padding: 10px 20px; 
     font-size: 16px; 
